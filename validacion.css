@@ -1,0 +1,143 @@
+body {
+
+    width : 1366px;
+    height: 768;
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(241,255,254,0.9728933809852066) 78%, rgba(227,227,227,1) 100%);
+}
+
+:root{
+
+    --OpenSans: 'Open Sans', sans-serif;
+    --ColorPrincipal: #707070;
+
+}
+
+/* formulario, contenedor padre */
+
+span {
+
+
+    font-family: var(--OpenSans);
+
+}
+
+
+
+form {
+    font-family: var(--OpenSans);
+    color:var(--ColorPrincipal);
+    display:block;
+    width:455px;
+    height:530px;
+    margin:0 455.3333px 0 455.3333px;
+    border: solid 1px;
+    border-radius: 20px;
+    border-color: var(--ColorPrincipal);
+    box-shadow: 1px;
+    background-color: white;
+
+}
+
+/*inputs*/
+
+#username, #password{
+
+    width: 366px;
+    height:41px;
+    border-radius: 20px;
+    border: solid 1px #39c;
+    border-color: var(--ColorPrincipal);
+    font-size: 20px;
+
+
+
+}
+
+#username{
+
+    margin: 146px 0 0 44.5px;
+    
+
+}
+
+#password{
+
+    margin: 160px 0 0 44.5px;
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+}
+
+a{
+
+    text-decoration: none;
+    font-family: var(--OpenSans);
+    color: var(--ColorPrincipal);
+
+}
+
+
+
+
+#boton-enlace, #submit{
+    position:absolute;
+    font-family: var(--OpenSans);
+    width:103px;
+    height:41px;
+    margin: 63px 0 0 175px ;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px ;
+    border-color: var(--ColorPrincipal);
+
+    
+
+}
+
+
+
+/*labels */
+
+
+#label-user{
+    
+    position:absolute;
+    top: 110px;
+    left:511px;
+    font-size: 26px;
+  
+    
+
+
+}
+
+#label-password{
+
+    position:absolute;
+    top: 320px;
+    left:511px;
+    font-size:26px;
+    
+
+}
+
+/* all rights reserved */
+
+div {
+    display:flex;
+    justify-content: center;
+    padding-top:25px;
+    font-family: var(--OpenSans);
+    font-size: 26px;
+    color:var(--ColorPrincipal)
+
+}
+
+span {
+
+    font-family: var(--OpenSans);
+    color:var(--ColorPrincipal;);
+    font-size: 8px;
+
+}

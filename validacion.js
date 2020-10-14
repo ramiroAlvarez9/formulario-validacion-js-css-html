@@ -1,38 +1,21 @@
-//DAT
-//Ingreso
-//INGRESO
 // Dia y hora
-function Today() {
-    
-    const today = new Date();
-    
-    console.log(moment().format('LLLL'));
-    
-    
-    const span = document.createElement('span');
-    
-    span.textContent = today;
-    
-    
-    const body = document.querySelector('body');
-    
-    body.appendChild(span);
-
-}
 
 
+import {Today} from './JSModules/today.js';
 
-//formulario - validacion 
 
+//captura de formulario
 
 const formulario = document.querySelector('form');
 
+//evento de submit
 formulario.addEventListener('submit', (e) => {
     
     e.preventDefault();
-
     const username = document.querySelector('#username').value;
     const password = document.querySelector('#password').value;
+
+    //validacion formulario
     if(username==='visit' && password==='visit'){
         const enlace = document.querySelector('a');
         enlace.setAttribute('href','page.html');
@@ -42,13 +25,6 @@ formulario.addEventListener('submit', (e) => {
         alert('password incorrecto')
 
     }})
-
-
-
-
+    
 Today();
-
-
-
-
 
